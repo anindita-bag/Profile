@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Anindita Bag</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+  		box-sizing: border-box;
+		}
+
+		body {
+ 		 font-family: 'Yusei Magic', sans-serif;
+ 		 margin: 0;
+		}
+
+		/* Style the header */
+		.header {
+		  padding: 80px;
+		  text-align: center;
+		  background: #eb596e;
+		  color: white;
+		}
+
+		/* Increase the font size of the h1 element */
+		.header h1 {
+		  font-size: 40px;
+		}
+
+		/* Style the top navigation bar */
+		.navbar {
+		  overflow: hidden;
+		  background-color: #4d375d;
+		}
+
+		/* Style the navigation bar links */
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 20px;
+		  text-decoration: none;
+		}
+
+		/* Right-aligned link */
+		.navbar a.right {
+		  float: right;
+		}
+
+		/* Change color on hover */
+		.navbar a:hover {
+		  background-color: #ffdcb8;
+		  color: black;
+		}
+
+		/* Column container */
+		.row {  
+		  display: flex;
+		  flex-wrap: wrap;
+		}
+
+		/* Create two unequal columns that sits next to each other */
+		/* Sidebar/left column */
+		.side {
+		  flex: 30%;
+		  background-color: seagreen;
+		  padding: 20px;
+		  font-family: "'Raleway', sans-serif";
+		  color:white;
+		}
+
+		/* Main column */
+		.main {   
+		  flex: 70%;
+		  background-color: #cdfffc;
+		  padding: 20px;
+		  font-family: "'Raleway', sans-serif";
+		}
+
+		/* Profile image, just for this example */
+		.profileimg {
+		  background-color: pink;
+ 		  width: 30%;
+		  /*height: 70% */
+		  padding: 5px;
+		  border-radius: 50%;
+		}
+
+		.footer {
+		  right:20%;
+		  text-align:50px;
+		}
+
+		/* Responsive layout - when the screen is less than 700px wide, 
+		make the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 700px) {
+		  .row {   
+		    flex-direction: column;
+		  }
+		}
+
+		/* Responsive layout - when the screen is less than 400px wide, 
+		make the navigation links stack on top of each other instead of next to each other */
+		@media screen and (max-width: 400px) {
+		  .navbar a {
+  		   float: none;
+ 		   width:100%;
+ 		 }
+		}
+	</style>
+</head>
+
+<body>
+
+<div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">Hello! This is my profile.</h4>
+</div>
+
+<div class="header">
+  <h1>Anindita Bag</h1>
+  <p>Pharma-Tech student.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://www.linkedin.com/in/anindita-bag-9b821b189/">Linkedin</a>
+  <a href="https://www.facebook.com/">Facebook</a>
+  <a href="C:\Users\91800\Desktop\PHARMA\SEMESTER 1\PIC\PIC IMP QUES.doc" class="right">My Notes</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>That's me:</h5>
+    <img class="profileimg" style="height:150px;" src="C:\ANINDITA PHONE\DOCUMENTS\Passport.jpg" alt="Avatar of Andy"></img>
+    <p>Hi! I am Anindita Bag. I study in SPTM Hyderabad for B. Pharm + MBA Program.</p>
+    <h3>Program</h3>
+    <p>SAP ID: 72812000072</p>
+    <p>Roll no.: H008</p>
+    <p>Subject: Computer Appications</p>
+    <br>
+    <h2>My people</h2>
+    <h5>My family comprises of 4 members.</h5>
+    <p>Mom: Lt. Col. Gayatree Mandal (MNS Officer) </p>
+    <p>Dad: N. C. Bag (NPD/Tool Designer)</p>
+    <p>Sis: Nabanita Bag (Software engineer) </p>
+    </div>
+<br>
+<br>
+  <div class="main">
+    <h2>SPTM NMIMS Hyderabad</h2>
+    <h5>1st year</h5>  
+    <p>SAP ID: 72812000072</p>
+    <p>Roll no.: H008</p>
+    <h2>One can usually find me at:</h2>
+    <h5>29/A/3, Barrack Road, Barrackpore Cantt., Barrackpore, 700120</h5> 
+    <br>
+    <h2>I love:</h2>
+    <h5>
+        <p>Reading </p>
+        <p>Travelling </p>
+    </h5>
+    <br>
+    <h2>Things I claim to be good at:</h2>
+    <h5>
+	<p> Strong principals</p>
+	<p> Ability to keep calm in stressful situations</p>
+	<p>Do not get emotional easily</p>
+    </h5>
+    <br>
+    <h2>Everyone has their weaknesses and so do I:</h2>
+    <h5>
+	<p>Not very good at first impression</p>
+	<p>Not very spontaneous, need preparation</p>
+	<p> Difficulty in maintaining work- life balance </p>
+    </h5>
+    <br>
+    <h2>I aim to:</h2>
+    <h5>
+	<p>Have a library of my own.</p>
+	<p>Give a TED Talk. </p>
+	<p> Earn enough to establish education centres in refugee camps. </p>
+	<p> Explore lots of different places and hence people. </p>
+    </h5>
+    <br>
+  </div>
+</div>
+
+<div class="footer">
+  <h2 style="text-align:center">Goodbye!</h2>
+</div>
+
+</body>
+
+</html>
